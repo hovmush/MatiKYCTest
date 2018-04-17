@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MFButton : UIButton
+@interface MFKYCButton : UIButton
 
 @end

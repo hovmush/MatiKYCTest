@@ -8,16 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol MFMatiDelegate
+@protocol MFMatiKYCDelegate
 
 - (void)mfMatiKYCLoginSuccess;
 - (void)mfMatiKYCLoginFailed;
 
 @end
 
-@interface MFMati : NSObject
+@interface MFMatiKYC : NSObject
 
-@property (weak, nonatomic) id <MFMatiDelegate> delegate;
+@property (weak, nonatomic) id <MFMatiKYCDelegate> delegate;
 
 + (void)registerWithToken:(NSString *)token;
 + (instancetype)instance;

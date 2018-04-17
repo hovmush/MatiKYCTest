@@ -14,9 +14,8 @@ FOUNDATION_EXPORT double mati_kyc_sdkVersionNumber;
 //! Project version string for mati_kyc_sdk.
 FOUNDATION_EXPORT const unsigned char mati_kyc_sdkVersionString[];
 
-#import <MatiKYCSDK/MFButton.h>
-#import <MatiKYCSDK/MFMati.h>
+#import <MatiKYCSDK/MFMatiKYC.h>
+#import <MatiKYCSDK/MFKYCButton.h>
 
-// In this header, you should import all the public headers of your framework using statements like #import <mati_kyc_sdk/PublicHeader.h>
 
 
