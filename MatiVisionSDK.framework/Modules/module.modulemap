@@ -1,0 +1,6 @@
+framework module MatiVisionSDK {
+  umbrella header "MatiVisionSDK.h"
+
+  export *
+  module * { export * }
+}

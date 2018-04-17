@@ -1,0 +1,6 @@
+framework module MatiKYCSDK {
+  umbrella header "MatiKYCSDK.h"
+
+  export *
+  module * { export * }
+}
